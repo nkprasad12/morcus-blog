@@ -63,7 +63,7 @@ This will automatically send an issue report to the Morcus team.
 
 NOTE: Edits need to be manually reviewed. The edits you make are temporary and local (so if you refresh or share a link, the edit won't persist).
 
-![GIF showing the new workflow](/images/2024-02/reader-search-box.png)
+![GIF showing the new workflow](/images/2024-02/edit-typo-workflow.gif)
 
 ## Performance
 
