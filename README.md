@@ -1,3 +1,13 @@
+# Updates [TBD]
+
+## Performance
+
+### Migration to Preact
+
+With the generous help of some of the `preact` maintainers, we were able to migrate the project from
+`React` to `preact`. This lowers the bundle size by around `40%` and could have some benefits for memory
+usage as well.
+
 # Updates [2024/02/15]
 
 ## Breaking changes
