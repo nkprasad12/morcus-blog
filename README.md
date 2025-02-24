@@ -46,7 +46,7 @@ abbreviated text.
 
 | Old | New |
 | --- | --- |
-| ![Old screenshot with expansions.](/images/2024-02/old-with-expansions.png) | ![New screenshow without expansions](/images/2024-02/new-without-expansions.png)    |
+| ![Old screenshot with expansions.](/images/2024-02/old-dict-with-expansions.png) | ![New screenshow without expansions](/images/2024-02/new-dict-without-expansions.png)    |
 
 ### Reader navigation
 
