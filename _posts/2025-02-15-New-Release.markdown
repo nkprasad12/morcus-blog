@@ -5,9 +5,9 @@ title: "New Morcus Update"
 
 See the updates [live](https://morcus.net), browse the [code](https://github.com/nkprasad12/morcus-net/commit/5d698ef11a694a9f98cf56a62a343bbac18e5299) or get the [Docker image](https://github.com/nkprasad12/morcus-net/pkgs/container/morcus/356383154?tag=5d698ef11a694a9f98cf56a62a343bbac18e5299).
 
-## Breaking changes
+# Breaking changes
 
-# Reader page URLs
+## Reader page URLs
 
 Previously, a link to Book 1, Chapter 2, Section 6 would look end with `/author/workName?id=1.2&l=5`
 In the latest update, this has been cleaned up to the more intuitive `/author/workName?id=1.2.6`.
@@ -18,9 +18,9 @@ update any existing links.
 
 The Morcus team apologizes for any inconvenience.
 
-## Features
+# Features
 
-# Basic Gaffiot support
+## Basic Gaffiot support
 
 We now have Gaffiot entries!
 
@@ -32,7 +32,7 @@ The main text of the entries is available, but the following is in progress:
 
 ![Example of a Gaffiot entry](/images/2024-02/gaffiot-beta.png)
 
-# No more auto-expansions
+## No more auto-expansions
 
 Previously, the dictionaries auto-expanded some abbreviations where we had a high confidence of the meaning of an expansion.
 However, there have been a fair number of edge cases where the auto-expansions have resulted in misleading or just incorrect
@@ -45,7 +45,7 @@ abbreviated text.
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | ![Old screenshot with expansions.](/images/2024-02/old-dict-with-expansions.png) | ![New screenshow without expansions](/images/2024-02/new-dict-without-expansions.png) |
 
-# Reader navigation
+## Reader navigation
 
 The `jump to section` search box has been moved into the top bar. You can quickly navigate to any section with an ID using this box.
 
@@ -57,7 +57,7 @@ Taking `De Bello Gallico`, which has `Book`, `Chapter`, and `Section` divisions:
 
 ![Screenshot showing the new search box](/images/2024-02/reader-search-box.png)
 
-# Report typos by editing
+## Report typos by editing
 
 You can now report typos in the dictionaries or the library by editing within the site UI.
 
@@ -74,13 +74,13 @@ NOTE: Edits need to be manually reviewed. The edits you make are temporary and l
 
 ![GIF showing the new workflow](/images/2024-02/edit-typo-workflow.gif)
 
-## Performance
+# Performance
 
-# `brotli` compression
+## `brotli` compression
 
 The main app bundle is now pre-compressed using `brotli` at the highest-level setting. The download size of the site is reduced by about 15% (`98 kB -> 84 kB`) for browsers that support `brotli`.
 
-# Caching of dynamic data
+## Caching of dynamic data
 
 Previously, dyanmically fetched data (such as dictionary entries or texts from the library) were not cached.
 
