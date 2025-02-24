@@ -1,41 +1,38 @@
-# Updates [TBD]
+---
+layout: post
+title: "New Morcus Update"
+---
 
-## Performance
-
-### Migration to Preact
-
-With the generous help of some of the `preact` maintainers, we were able to migrate the project from
-`React` to `preact`. This lowers the bundle size by around `40%` and could have some benefits for memory
-usage as well.
-
-# Updates [2024/02/15]
+See the updates [live](https://morcus.net), browse the [code](https://github.com/nkprasad12/morcus-net/commit/5d698ef11a694a9f98cf56a62a343bbac18e5299) or get the [Docker image](https://github.com/nkprasad12/morcus-net/pkgs/container/morcus/356383154?tag=5d698ef11a694a9f98cf56a62a343bbac18e5299).
 
 ## Breaking changes
 
-### Reader page URLs
+# Reader page URLs
 
 Previously, a link to Book 1, Chapter 2, Section 6 would look end with `/author/workName?id=1.2&l=5`
-In the latest update, this has been cleaned up to `/author/workName?id=1.2.6`.
+In the latest update, this has been cleaned up to the more intuitive `/author/workName?id=1.2.6`.
 
 To support an upcoming feature (dynamic sizing of pages in the reader), using the relative number of
-the target section (`l=5` in the link above) is deprecated, so the old links won't work anymore.
+the target section (`l=5` in the link above) is deprecated, so the old links won't work anymore. Please
+update any existing links.
 
 The Morcus team apologizes for any inconvenience.
 
 ## Features
 
-### Basic Gaffiot support
+# Basic Gaffiot support
 
 We now have Gaffiot entries!
 
 The main text of the entries is available, but the following is in progress:
+
 - Indentations for divisions of the text
 - Entry outlines
 - Inflection support
 
 ![Example of a Gaffiot entry](/images/2024-02/gaffiot-beta.png)
 
-### No more auto-expansions
+# No more auto-expansions
 
 Previously, the dictionaries auto-expanded some abbreviations where we had a high confidence of the meaning of an expansion.
 However, there have been a fair number of edge cases where the auto-expansions have resulted in misleading or just incorrect
@@ -44,26 +41,28 @@ replacements.
 As a result, this release removes all auto-expansions. You can still see the possible expanded forms by clicking on
 abbreviated text.
 
-| Old | New |
-| --- | --- |
-| ![Old screenshot with expansions.](/images/2024-02/old-dict-with-expansions.png) | ![New screenshow without expansions](/images/2024-02/new-dict-without-expansions.png)    |
+| Old                                                                              | New                                                                                   |
+| -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| ![Old screenshot with expansions.](/images/2024-02/old-dict-with-expansions.png) | ![New screenshow without expansions](/images/2024-02/new-dict-without-expansions.png) |
 
-### Reader navigation
+# Reader navigation
 
 The `jump to section` search box has been moved into the top bar. You can quickly navigate to any section with an ID using this box.
 
 Taking `De Bello Gallico`, which has `Book`, `Chapter`, and `Section` divisions:
+
 - Searching `2.1` would take you to `Book 2`, `Chapter 1`.
 - Searching `3.2.7` would take you to `Book 3`, `Chapter 2` and scroll down to `Section 7`.
 - If you're already on `3.2`, searching `3.2.7` will just scroll down to `Section 7`, as expected.
 
 ![Screenshot showing the new search box](/images/2024-02/reader-search-box.png)
 
-### Report typos by editing
+# Report typos by editing
 
 You can now report typos in the dictionaries or the library by editing within the site UI.
 
 To do this:
+
 1. Click on any section header that would have had a link before.
 2. Click the `Edit and Report` option.
 3. Edit the text.
@@ -77,11 +76,11 @@ NOTE: Edits need to be manually reviewed. The edits you make are temporary and l
 
 ## Performance
 
-### `brotli` compression
+# `brotli` compression
 
 The main app bundle is now pre-compressed using `brotli` at the highest-level setting. The download size of the site is reduced by about 15% (`98 kB -> 84 kB`) for browsers that support `brotli`.
 
-### Caching of dynamic data
+# Caching of dynamic data
 
 Previously, dyanmically fetched data (such as dictionary entries or texts from the library) were not cached.
 
