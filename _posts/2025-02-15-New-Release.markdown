@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "New Morcus Update"
+subtitle: "Basic Gaffiot support, in-app typo reporting, a few performance improvements, and more."
 ---
 
-See the updates [live](https://morcus.net), browse the [code](https://github.com/nkprasad12/morcus-net/commit/5d698ef11a694a9f98cf56a62a343bbac18e5299) or get the [Docker image](https://github.com/nkprasad12/morcus-net/pkgs/container/morcus/356383154?tag=5d698ef11a694a9f98cf56a62a343bbac18e5299).
+See the updates [live](https://morcus.net), browse the [code](https://github.com/nkprasad12/morcus-net/commit/5d698ef11a694a9f98cf56a62a343bbac18e5299), or get the [Docker image](https://github.com/nkprasad12/morcus-net/pkgs/container/morcus/356383154?tag=5d698ef11a694a9f98cf56a62a343bbac18e5299).
 
 # Breaking changes
 
