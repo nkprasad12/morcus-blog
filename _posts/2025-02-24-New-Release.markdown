@@ -4,8 +4,9 @@ title: "New Morcus Update"
 subtitle: "Better Gaffiot support, more performance improvements, and lots of little UI fixes."
 ---
 
-See the updates [live](https://morcus.net), browse the [code](https://github.com/nkprasad12/morcus-net/commit/TODO), 
-or get the [Docker image](https://github.com/nkprasad12/morcus-net/pkgs/container/morcus/TODO).
+See the updates [live](https://morcus.net), 
+browse the [code](https://github.com/nkprasad12/morcus-net/commit/a2fd2f4c868e883a6aec5bf79816d1d91ba3ab75), 
+or get the [Docker image](https://github.com/nkprasad12/morcus-net/pkgs/container/morcus/361680911?tag=a2fd2f4c868e883a6aec5bf79816d1d91ba3ab75).
 
 # Features
 
@@ -24,6 +25,20 @@ there are multiple lemmata that differ only on vowel lengths, but other words sh
 
 ![Gaffiot with inflection handling](/images/2025-02-R2/gaffiot-inflections.png)
 
+# Misc
+
+## Landing page
+
+In a (probably vain) attempt to alleviate user confusion, the landing page has
+now been updated to nudge users towards the search settings if they don't see
+useful results.
+
+![Updated landing page](/images/2025-02-R2/landing-page.png)
+
+## Other
+
+This release fixes several scroll bugs and several small UI bugs related to poor spacing and layout.
+
 # Performance
 
 ## Page Loads
@@ -37,10 +52,6 @@ should speed up page loads on the largest sites by an average of `30%`.
 
 We optimized memory usage across the board in a variety of ways,
 and various pages should use `5-20%` less memory than before.
-
-# Misc
-
-This release fixes several scroll bugs and several small UI bugs related to poor spacing and layout.
 
 # Play Store
 
