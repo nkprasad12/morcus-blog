@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New Morcus Update"
+title: "Morcus Release (February 2025 #1)"
 subtitle: "Basic Gaffiot support, in-app typo reporting, a few performance improvements, and more."
 ---
 
