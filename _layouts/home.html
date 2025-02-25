@@ -25,7 +25,18 @@ layout: base
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
       <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span>
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          {%- if post.tags -%}
+          <span class="tagList">
+          {% for tag in post.tags %}
+            <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
+                #{{ tag }}
+            </a>
+          {% endfor %}
+          </span>
+        {%- endif -%}
+        </span>
         <h4>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
