@@ -2,6 +2,7 @@
 layout: post
 title: "Morcus Release (March 2025)"
 subtitle: "Numeral dictionary, and TBD."
+tags: release
 ---
 
 See the updates [live](https://morcus.net), 

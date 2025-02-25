@@ -2,6 +2,7 @@
 layout: post
 title: "Morcus Release (February 2025 #2)"
 subtitle: "Better Gaffiot support, more performance improvements, and lots of little UI fixes."
+tags: release
 ---
 
 See the updates [live](https://morcus.net), 
