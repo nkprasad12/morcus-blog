@@ -11,7 +11,22 @@ or get the [Docker image](https://github.com/nkprasad12/morcus-net/pkgs/containe
 
 # Features
 
-## Translation Details
+## Dictionary
+
+### Bottom Drawer {#bottom-drawer}
+
+On narrow screen (usually mobile) views, the table of contents is now in a bottom drawer. This allows for access to the table of contents
+no matter where you are in a long article.
+
+![Screenshot showing the drawer menu](/images/2025-03-R1/dict-drawer.png){:height="400" .align-right}
+
+#### If you prefer the old layout
+
+You can still use it (check `Display Settings` under the `Dictionary Options`)! ![Screenshot showing the layout settings](/images/2025-03-R1/dict-options.png)
+
+## Reader
+
+### Translation Details
 
 In the reader, translations now show details about original title and translator.
 
