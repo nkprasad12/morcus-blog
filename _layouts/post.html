@@ -45,3 +45,15 @@ layout: base
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+<script>
+  const headings = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id]');
+  for (const heading of headings) {
+    const link = document.createElement('a');
+    link.setAttribute('href', `#${heading.id}`);
+    link.innerHTML = heading.innerHTML;
+    link.classList.add('heading-link');
+    heading.removeChild(heading.firstChild);
+    heading.appendChild(link);
+  }
+</script>
