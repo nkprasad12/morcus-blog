@@ -34,6 +34,10 @@ In the reader, translations now show details about original title and translator
 
 ## Library
 
-### Tibullus
+The following are now available on the [library](https://morcus.net/library)!
 
-The `Elegiae` are now available on the [library](https://morcus.net/library)!
+- By Tibullus, `Elegiae` in Latin.
+- By Sulpicia, `Carmina` in Latin.
+- By Ovid, `Epistulae`, `Medicamina Faciei Feminae`, and `Ars Amatoria` in Latin.
+- By Ovid, a translation for `Amores` in English.
+
