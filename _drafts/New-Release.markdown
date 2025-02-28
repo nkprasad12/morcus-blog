@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Morcus Release (March 2025)"
-subtitle: "Numeral dictionary, and TBD."
+subtitle: "New mobile dictionary layout, five new Latin works in the libary, and some numeral dictionary progress."
 tags: release
 ---
 
@@ -23,6 +23,13 @@ no matter where you are in a long article.
 #### If you prefer the old layout
 
 You can still use it (check `Display Settings` under the `Dictionary Options`)! ![Screenshot showing the layout settings](/images/2025-03-R1/dict-options.png)
+
+### Numeral Dictionary
+
+The dictionary will now provide basic results for numbers that are explicitly listed in our inflection tables. More advanced features,
+like generating results for the result of the numbers, will come in a future release.
+
+![Screenshot showing a Latin ordinal and Cardinal for a given Roman number input](/images/2025-03-R1/numeral-dict-progress.png)
 
 ## Reader
 
