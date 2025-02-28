@@ -31,3 +31,9 @@ You can still use it (check `Display Settings` under the `Dictionary Options`)! 
 In the reader, translations now show details about original title and translator.
 
 ![Details about the translation of Bellum Catalina](/images/2025-03-R1/translation-details.png)
+
+## Library
+
+### Tibullus
+
+The `Elegiae` are now available on the [library](https://morcus.net/library)!
