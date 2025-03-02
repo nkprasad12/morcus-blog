@@ -6,8 +6,8 @@ tags: release
 ---
 
 See the updates [live](https://morcus.net), 
-browse the [code](https://github.com/nkprasad12/morcus-net/commit/TODO), 
-or get the [Docker image](https://github.com/nkprasad12/morcus-net/pkgs/container/morcus/TODO).
+browse the [code](https://github.com/nkprasad12/morcus-net/commit/039fd911f239c649ceb1f0ce7c18a2252c2c95d7), 
+or get the [Docker image](https://github.com/nkprasad12/morcus-net/pkgs/container/morcus/365341940?tag=039fd911f239c649ceb1f0ce7c18a2252c2c95d7).
 
 # Features
 
