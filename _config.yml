@@ -53,3 +53,6 @@ remote_theme: jekyll/minima
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+exclude:
+  - local-run-instructions.md

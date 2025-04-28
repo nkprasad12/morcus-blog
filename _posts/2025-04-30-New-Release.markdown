@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Morcus Release (April 2025 #2)"
-subtitle: "Georges (German-Latin dictionary) is now available!"
+subtitle: "Now available: Georges (German-Latin dictionary); more Tacitus and Cicero."
 tags: release
 ---
 
-See the updates [live](https://morcus.net), 
-browse the [code](https://github.com/nkprasad12/morcus-net/commit/TODO), 
-or get the [Docker image](https://github.com/nkprasad12/morcus-net/pkgs/container/morcus/TODO).
+See the updates [live](https://morcus.net),
+browse the [code](https://github.com/nkprasad12/morcus-net/commit/8672c17c0f5084b2ec6b1460374456dc8c65cb45),
+or get the [Docker image](https://github.com/nkprasad12/morcus-net/pkgs/container/morcus/406009155).
 
 # Features
 
@@ -25,6 +25,7 @@ Dictionary selection will now be persisted across sessions (previously, these se
 
 ## Library
 
-The following are newly available on the [library](https://morcus.net/library)!
+The following are newly available on the [library](https://morcus.net/library):
 
-- By X: `Y`
+- By Tacitus: `Dialogus de Oratoribus`
+- By Cicero: `Pro Quinctio` and `Pro Quinto Roscio`
