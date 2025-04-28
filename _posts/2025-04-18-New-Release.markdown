@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Morcus Release (April 2024)"
+title: "Morcus Release (April 2025)"
 subtitle: "Suffix search, Macronizer preview, and more works in the library."
 tags: release
 ---
