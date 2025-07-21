@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Lots of new works and lots of new quality of life features and fixes!"
-subtitle: "TODO: Summarize"
+title: "Morcus Release (July 2025 #3)"
+subtitle: "Lots of new works and lots of new quality of life features and fixes!"
 tags: release
 ---
 
