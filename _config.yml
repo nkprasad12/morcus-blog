@@ -56,3 +56,4 @@ remote_theme: jekyll/minima
 
 exclude:
   - local-run-instructions.md
+  - vendor/
