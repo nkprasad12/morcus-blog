@@ -1,0 +1,14 @@
+---
+layout: null
+permalink: /latest.json
+---
+{%- comment -%}
+  The newest release post, for the What's New callout on morcus.net.
+  Keep this small and the field names stable: clients depend on them.
+{%- endcomment -%}
+{%- assign post = site.posts | where_exp: "p", "p.tags contains 'release'" | first -%}
+{
+  "date": {{ post.date | date: "%Y-%m-%d" | jsonify }},
+  "description": {{ post.description | jsonify }},
+  "url": {{ post.url | absolute_url | jsonify }}
+}
