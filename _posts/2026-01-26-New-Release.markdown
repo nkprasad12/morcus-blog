@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Morcus Release (January 2026)"
-subtitle: "Half a million new words in the library (and some bug fixes)"
+description: "Half a million new words in the library (and some bug fixes)"
 tags: release
 ---
 

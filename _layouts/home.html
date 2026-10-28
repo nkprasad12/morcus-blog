@@ -41,7 +41,7 @@ layout: base
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-          <i>{{ post.subtitle }}</i>
+          <i>{{ post.description }}</i>
         </h4>
         {%- if site.minima.show_excerpts -%}
           {{ post.excerpt }}

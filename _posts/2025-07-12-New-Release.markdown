@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Morcus Release (July 2025 #2)"
-subtitle: "Hypotactic works - Aeneid and Metamorphoses!"
+description: "Hypotactic works - Aeneid and Metamorphoses!"
 tags: release
 ---
 

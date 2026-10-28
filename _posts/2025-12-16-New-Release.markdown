@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Morcus Release (Fall / Winter 2025)"
-subtitle: "Corpus search tool, many new works, and more!"
+description: "Corpus search tool, many new works, and more!"
 tags: release
 ---
 

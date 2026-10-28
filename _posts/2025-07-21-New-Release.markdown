@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Morcus Release (July 2025 #3)"
-subtitle: "Lots of new works and lots of new quality of life features and fixes!"
+description: "Lots of new works and lots of new quality of life features and fixes!"
 tags: release
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Morcus Release (April 2025 #2)"
-subtitle: "Now available: Georges (German-Latin dictionary); more Tacitus and Cicero."
+description: "Now available: Georges (German-Latin dictionary); more Tacitus and Cicero."
 tags: release
 ---
 

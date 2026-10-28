@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Morcus Release (October 2026)"
-subtitle: "A redesigned site that's easier to use, faster, and lighter (and can work without JavaScript!)"
+description: "A redesigned site that's easier to use, faster, and lighter (and can work without JavaScript!)"
 tags: release
 ---
 

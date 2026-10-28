@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Morcus Release (July 2025)"
-subtitle: "Excerpts of Gesner (Latin-Latin dictionary); collapsable drawer; lots of typo fixes."
+description: "Excerpts of Gesner (Latin-Latin dictionary); collapsable drawer; lots of typo fixes."
 tags: release
 ---
 

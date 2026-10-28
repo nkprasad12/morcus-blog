@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Morcus Release (June 2025)"
-subtitle: "Now available: Pozo (Spanish to Greek / Latin dictionary); Roman numerals; more Cicero; PDF links for library works."
+description: "Now available: Pozo (Spanish to Greek / Latin dictionary); Roman numerals; more Cicero; PDF links for library works."
 tags: release
 ---
 

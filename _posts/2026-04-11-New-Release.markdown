@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Morcus Release (April 2026)"
-subtitle: "One million new words in the library, and barebones Forcellini support."
+description: "One million new words in the library, and barebones Forcellini support."
 tags: release
 ---
 

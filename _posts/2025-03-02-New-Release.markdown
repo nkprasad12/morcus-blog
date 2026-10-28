@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Morcus Release (March 2025)"
-subtitle: "New mobile dictionary layout, five new Latin works in the libary, and some numeral dictionary progress."
+description: "New mobile dictionary layout, five new Latin works in the libary, and some numeral dictionary progress."
 tags: release
 ---
 

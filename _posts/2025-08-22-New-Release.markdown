@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Morcus Release (August 2025)"
-subtitle: "A few dictionary fixes, and more works from Hypotactic."
+description: "A few dictionary fixes, and more works from Hypotactic."
 tags: release
 ---
 
